@@ -23,7 +23,7 @@ const Header = () => {
     
         <div className='flex items-center justify-center text-[1.5rem] gap-2'>
             <img src={logo} className='w-[24px]'/>
-            <h1>Todo App</h1>
+            <h1>Task App</h1>
         </div>
         
         <div className='relative w-fit'>
