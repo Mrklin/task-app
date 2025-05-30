@@ -37,9 +37,9 @@ const Form = () => {
     
     
   return (
-    <div className='w-[430px] relative rounded-2xl shadow-md hover:shadow-lg px-8 mb-3
+    <div className='w-[300px] md:w-[430px] relative rounded-2xl shadow-md hover:shadow-lg px-8 mb-3
      bg-sky-100 min-h-30 h-fit text-center place-content-center top-10 text-[#4A4A4A]'>
-        <h3 className='text-[2rem] italic pb-4'>{contents.length ? `You have ${contents.length} task`: `Add a task` } </h3>
+        <h3 className='text-[1rem] md:text-[2rem] italic pb-4'>{contents.length ? `You have ${contents.length} task`: `Add a task` } </h3>
         
         <div className='flex flex-col-reverse '>
 

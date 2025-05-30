@@ -6,7 +6,7 @@ const Delete = (props) => {
         <input type='button' 
         value='Delete' 
         onClick={props.delete}
-            className='cursor-pointer px-4 py-1 rounded-2xl text-amber-50 hover:bg-sky-700 bg-sky-500'/>
+            className='cursor-pointer px-3 md:px-4  py-0.5 md:py-1 rounded-2xl text-amber-50 hover:bg-sky-700 bg-sky-500'/>
 
   )
 }

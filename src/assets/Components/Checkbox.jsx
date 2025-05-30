@@ -6,7 +6,7 @@ const Checkbox = ({type, change}) => {
      type={type}
      onClick={change}
 
-     className='w-[20px] cursor-pointer'
+     className='w-[18px] md:w-[20px] cursor-pointer'
      /> 
   )
 }

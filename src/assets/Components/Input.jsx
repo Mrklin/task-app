@@ -16,7 +16,7 @@ const Input = (props) => {
     <div className='flex justify-between flex-col h-[100%]'>
             
             <input onChange={handleText}
-             className={`text-[1.2rem]  outline-0`} 
+             className={`text-[1rem] md:text-[1.2rem]  outline-0`} 
              placeholder={props.holder}
              name='task'
              value={text.task} />

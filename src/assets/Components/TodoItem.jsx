@@ -16,7 +16,8 @@ const TodoItem = (props) => {
             type='checkbox'
             change={handleCheck}
             />
-            <p className= {`${check ? "line-through italic text-gray-500" : ""} text-[1.2rem]`} >
+            <p className= {`${check ? "line-through italic text-gray-500" : ""} 
+            text-[1.1rem] md:text-[1.2rem]`} >
             {props.task}
              </p>
             <Delete 
